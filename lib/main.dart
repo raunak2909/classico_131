@@ -1,3 +1,4 @@
+import 'package:classico_git_131/profile_page.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: ProfilePage(),
     );
   }
 }
